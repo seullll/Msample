@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<layout xmlns:tools="http://schemas.android.com/tools"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".MainActivity"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="회원가입"
+            android:textStyle="bold"
+            android:layout_marginTop="150dp"
+            android:layout_marginLeft="150dp"
+            android:textColor="@color/black"
+            android:textSize="30dp">
+        </TextView>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="아이디*"
+            android:textStyle="bold"
+            android:layout_marginTop="150dp"
+            android:layout_marginLeft="150dp"
+            android:textColor="@color/black"
+            android:textSize="30dp">
+        </TextView>
+
+        <EditText
+            android:id="@+id/emailArea"
+            android:hint="아이디"
+            android:layout_marginTop="20dp"
+            android:layout_marginLeft="90dp"
+            android:layout_width="250dp"
+            android:layout_height="wrap_content"/>
+
+        <EditText
+            android:id="@+id/pwdArea"
+            android:hint="비밀번호"
+            android:layout_width="250dp"
+            android:layout_marginLeft="90dp"
+            android:layout_height="wrap_content"/>
+
+
+        <Button
+            android:id="@+id/girlBtn"
+            android:layout_marginTop="20dp"
+            android:layout_width="125dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="90dp"
+            android:drawableLeft=""
+            android:text="여" />
+
+
+        <Button
+            android:id="@+id/boyBtn"
+            android:layout_width="125dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="3dp"
+            android:layout_marginLeft="90dp"
+            android:drawableLeft=""
+            android:text="남" />
+
+        <Button
+            android:id="@+id/joinusBtn"
+            android:layout_width="250dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            android:layout_marginLeft="90dp"
+            android:background="@drawable/round_button"
+            android:textColor="#ffffff"
+            android:text="가입하기" />
+
+    </LinearLayout>
+</layout>

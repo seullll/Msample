@@ -14,7 +14,7 @@
         android:layout_height="wrap_content"
         android:text="로그인"
         android:textStyle="bold"
-        android:layout_marginTop="150dp"
+        android:layout_marginTop="130dp"
         android:layout_marginLeft="150dp"
         android:textColor="@color/black"
         android:textSize="30dp">
@@ -24,7 +24,7 @@
     <EditText
         android:id="@+id/emailArea"
         android:hint="아이디"
-        android:layout_marginTop="20dp"
+        android:layout_marginTop="40dp"
         android:layout_marginLeft="90dp"
         android:layout_width="250dp"
         android:layout_height="wrap_content"/>
@@ -47,12 +47,12 @@
 
     <Button
         android:id="@+id/kakaoBtn"
-        android:layout_marginTop="20dp"
         android:layout_width="250dp"
         android:layout_height="wrap_content"
         android:layout_marginLeft="90dp"
+        android:layout_marginTop="20dp"
         android:background="@drawable/round_button2"
-        android:drawableLeft=""
+        android:drawableLeft="@drawable/talk2"
         android:text="카카오 로그인" />
 
 
